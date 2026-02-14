@@ -1,0 +1,41 @@
+/* تنسيق شريط التنقل */
+.navbar {
+  background-color: #2d3748;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+  color: #fbbf24; /* لون ذهبي لما الماوس يجي عليه */
+}
+
+.hero-section {
+  background-color: #3182ce;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #fbbf24;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}

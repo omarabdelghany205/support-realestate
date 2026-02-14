@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8fafc; /* أبيض رخامي */
+  color: #1e293b;
+}
+
+/* تنسيق شريط التمرير (Scrollbar) عشان يبقى شيك */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #d97706; /* ذهبي */
+  border-radius: 4px;
+}
